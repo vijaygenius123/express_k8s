@@ -1,12 +1,25 @@
 {
   "name": "express_k8s",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Vijayaraghavan Sundararaman <vijaygenius123@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijaygenius123/express_k8s.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vijaygenius123/express_k8s/issues"
+  },
+  "homepage": "https://github.com/vijaygenius123/express_k8s#readme",
+  "description": "",
+  "dependencies": {
+    "express": "4.17.1"
+  }
 }
